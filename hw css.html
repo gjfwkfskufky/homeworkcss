@@ -1,48 +1,41 @@
 
+
+
+classwork 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Card</title>
-  <style>
-    .card {
-      border: 2px solid red;
-      border: 2px solid #000FF;    
-      border-radius: 10px;        
-      padding: 15px;               
-      margin: 20px auto;          
-      width: auto;                
-      height: 400px;              
-      text-align: center;         
-      max-width: 300px;          
-      font-family: Arial, sans-serif;
-    }
-
-    .card img {
-      max-width: 100%;            
-      min-width: 200px;           
-      height: auto;               
-      border-radius: 8px;         
-    }
-
-    .card h2 {
-      margin: 10px 0;
-    }
-
-    .card p {
-      font-size: 0.9em;
-      color: #555;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Model with Three Borders</title>
+<style>
+.outer-box {
+  border: 10px solid #4a90e2;
+  padding: 20px;
+  width: 300px;
+  background-color: #f0f8ff;
+}
+.middle-box {
+  border: 6px solid #50c878;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.inner-box {
+  border: 3px solid #ff6f61;
+  padding: 10px;
+  background-color: #fafafa;
+  text-align: center;
+}
+</style>
 </head>
 <body>
-
-  <div class="card">
-    <img src="C:\Users\SHAIMA\Downloads\download (2).jpeg" alt="Product Image">
-    <h2>SMART WATCH</h2>
-    <p>Stay connected and track your fitness.Features:heart rate monitoring,step tracking and msg notifications</p>
+<div class="outer-box">
+  <div class="middle-box">
+    <div class="inner-box">
+      Layered Box Model
+    </div>
   </div>
-
+</div>
 </body>
 </html>
